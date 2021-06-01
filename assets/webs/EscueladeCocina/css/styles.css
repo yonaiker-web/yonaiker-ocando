@@ -1,0 +1,151 @@
+:root {
+    --primario: #f46669;
+    --secundario: #c7c57d;
+    --gris: #f5f5f5;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#303030;
+}
+/**/
+p{
+    font-weight: 100;
+    line-height: 3rem;
+    font-size: 1rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: black;
+}
+.nav-link:hover {
+    color: #f46669;
+}
+.bg-primary {
+    background-color: #f46669 !important;
+}
+.bg-secondary {
+    background-color:  #c7c57d !important;
+}
+.bg-vino {
+    background-image: url(../img/principal1.jpg);
+}
+.bg-comida {
+    background-image: url(../img/principal2.jpg);
+}
+.imagen {
+    background-size: cover;
+    background-position: top center;
+}
+.imagen-superior > div ,
+.imagen-inferior > div {
+    height: 30rem ;
+}
+
+@media (min-width: 768px) {
+    .imagen-superior > div ,
+    .imagen-inferior > div {
+    height: 35rem ;
+    }
+}
+
+.imagen-inferior .bg-comida {
+    order: 1;
+}
+
+@media (min-width: 768px) {
+    .imagen-inferior .bg-comida {
+        order: unset;
+    }
+}
+.imagen-superior .contenido {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.imagen-inferior .contenido {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.contenido p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+/*NOSOTROS*/
+.separador::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/separador.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 20px auto 0 auto;
+}
+.nosotros .informacion h3 {
+    font-weight: 300;
+    
+}
+/*PROXIMAS CLASES*/
+.clases {
+    background-color: #f5f5f5;
+}
+.badge-secondary {
+    background-color: #c7c57d;
+}
+.card {
+    margin-bottom: 2rem;
+}
+.card-meta span {
+    font-weight: 400;
+    color: black;
+}
+.card-subtitle {
+    color: #f46669;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.card-body p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.card-body a {
+    color: #f46669;
+}
+/*LICENCIATURA*/
+.licenciatura {
+    background-image: url(../img/chef_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.estudia-licenciatura {
+    height: 38rem;
+}
+.estudia-licenciatura .contenido h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.estudia-licenciatura .contenido p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.btn-primary {
+    background-color: #f46669;
+    border-color: #f46669;
+}
+.btn-primary:hover {
+    background-color: #cf5a5c;
+    border-color: #cf5a5c;
+}
+/*FOOOTER*/
+.footer {
+    border-bottom: 10px solid #f46669;
+}
+.copyright {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+

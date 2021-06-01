@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Escuela Cocina</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header container mb-2">
+    <!--justify-content-between= divide el contenido en las esquinas 
+        align-items-center = centra el contenido-->
+    <div class="row justify-content-between align-items-center">
+        <div class="col-md-4">
+            <img src="img/logo.svg" alt="Logo" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+            <!--flex-column=coloca en meno vertical (para dispositivos pequeños) 
+                flex-md-row= coloca el menu horizontal para dispositivos medianos o grande
+                justify-content-end= coloca el menu al lado derecho en dispositivos grandes text-center centra el menu el dispositivos pequeños-->
+            <div class="nav flex-column flex-md-row justify-content-end text-center">
+                <a href="#" class="nav-link">Nosotros</a>
+                <a href="#" class="nav-link">Clases</a>
+                <a href="#" class="nav-link">Galeria</a>
+                <a href="#" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--SECCIONE IMAGENES-->
+<div class="container-fluid imagenes-principales">
+    <div class="row imagen-superior imagen">
+        <div class="col-md-6 bg-primary">
+            <div class="row justify-content-center h-100">
+                <div class="col-sm-8 align-items-center d-flex">
+                    <div class="contenido text-light py-3 text-center">
+                        <h2 class="text-uppercase ">20 años de experiencia</h2>
+                        <p>Nos respaldan, siemre ofertando los mejores cursos para principiantes y expertos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 bg-vino imagen"></div>
+    </div>
+    <div class="row imagen-inferior ">
+        <div class="col-md-6 bg-comida imagen"></div>
+        <div class="col-md-6 bg-secondary">
+            <div class="row justify-content-center h-100">
+                <div class="col-sm-8 align-items-center d-flex">
+                    <div class="contenido py-3 text-center">
+                        <h2 class="text-uppercase">Sobre nosotros</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni alias eaque voluptatibus atque incidunt, ut sunt suscipit magnam illum tempore odio iste repellat eius ipsam! Et mollitia accusamus voluptatum.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quod mollitia explicabo autem facere in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--NOSOTROS-->
+<section class="nosotros container mt-5 ">
+    <h2 class="separador text-center mb-5">
+        ¿Porque estudiar con nosotros?
+    </h2>
+    <div class="row">
+        <!-- 1 -->
+        <div class="col-md-4 text-center informacion">
+            <img src="img/icono_chef.png" alt="" class="img-fluid mb-4">
+            <h3>Chef's Especialistas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam.</p>
+        </div>
+        <!-- 2 -->
+        <div class="col-md-4 text-center informacion">
+            <img src="img/icono_vino.png" alt="" class="img-fluid mb-4">
+            <h3>incluye todo sobre Bebidas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam.</p>
+        </div>
+        <!-- 3 -->
+        <div class="col-md-4 text-center informacion">
+            <img src="img/icono_menu.png" alt="" class="img-fluid mb-4">
+            <h3>Siempre Actualizado</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam.</p>
+        </div>
+    </div>
+</section>
+
+<!--CLASES-->
+<section class="clases mt-5 py-5">
+    <h2 class="separador text-center mb-5">
+        Proximas Clases
+    </h2>    
+    <div class="container">
+        <div class="row">
+            <!--CLASE 1-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/clase1.jpg" alt="Imagen Clase 1" class="card-img-top">
+                    <div class="card-meta bg-primary p-3 text-light">
+                        <p class="m-0 text-center">22 / Frebrero / 2020 18:00 Hrs
+
+                            <span class="badge badge-secondary py-2 px-2">$300</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Comida Italiana para principiantes</h3>
+                        <p class="card-subtitle my-2">Aprende las bases de la comida italiana con este curos
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores labore dicta iusto optio deleniti. Perspiciatis ipsum quaerat ratione nesciunt.</p>
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+            <!--CLASE 2-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/clase2.jpg" alt="Imagen Clase 1" class="card-img-top">
+                    <div class="card-meta bg-primary p-3 text-light">
+                        <p class="m-0 text-center">22 / Frebrero / 2020 18:00 Hrs
+
+                            <span class="badge badge-secondary py-2 px-2">$300</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Planeacion de menus para bodas</h3>
+                        <p class="card-subtitle my-2">
+                            Añade la planeacion de menus para bodas a tus habilidades. 
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores labore dicta iusto optio deleniti. Perspiciatis ipsum quaerat ratione nesciunt.</p>
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+           <!--CLASE 3-->
+           <div class="col-md-4">
+                <div class="card">
+                    <img src="img/clase3.jpg" alt="Imagen Clase 1" class="card-img-top">
+                    <div class="card-meta bg-primary p-3 text-light">
+                        <p class="m-0 text-center">22 / Frebrero / 2020 18:00 Hrs
+
+                            <span class="badge badge-secondary py-2 px-2">$300</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Preparacion de pasteles</h3>
+                        <p class="card-subtitle my-2">
+                            Aprende a preparar deliciosos postres con este curso
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores labore dicta iusto optio deleniti. Perspiciatis ipsum quaerat ratione nesciunt.</p>
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+           <!--CLASE 4-->
+           <div class="col-md-4">
+                <div class="card">
+                    <img src="img/clase4.jpg" alt="Imagen Clase 1" class="card-img-top">
+                    <div class="card-meta bg-primary p-3 text-light">
+                        <p class="m-0 text-center">22 / Frebrero / 2020 18:00 Hrs
+
+                            <span class="badge badge-secondary py-2 px-2">$300</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Comida mexicana</h3>
+                        <p class="card-subtitle my-2">Aprende las bases de la comida italiana con este curos
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores labore dicta iusto optio deleniti. Perspiciatis ipsum quaerat ratione nesciunt.</p>
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+           <!--CLASE 5-->
+           <div class="col-md-4">
+                <div class="card">
+                    <img src="img/clase5.jpg" alt="Imagen Clase 1" class="card-img-top">
+                    <div class="card-meta bg-primary p-3 text-light">
+                        <p class="m-0 text-center">22 / Frebrero / 2020 18:00 Hrs
+
+                            <span class="badge badge-secondary py-2 px-2">$300</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Comida de Marruecos</h3>
+                        <p class="card-subtitle my-2">Aprende las bases de la comida italiana con este curos
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores labore dicta iusto optio deleniti. Perspiciatis ipsum quaerat ratione nesciunt.</p>
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>
+            <!--CLASE 6-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/clase6.jpg" alt="Imagen Clase 1" class="card-img-top">
+                    <div class="card-meta bg-primary p-3 text-light">
+                        <p class="m-0 text-center">22 / Frebrero / 2020 18:00 Hrs
+
+                            <span class="badge badge-secondary py-2 px-2">$300</span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Prepara 10 tipos de ensaladas</h3>
+                        <p class="card-subtitle my-2">Aprende las bases de la comida italiana con este curos
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores labore dicta iusto optio deleniti. Perspiciatis ipsum quaerat ratione nesciunt.</p>
+                        <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+</section>
+
+<!--LICENCIATURA-->
+<div class="licenciatura">
+    <div class="container">
+        <div class="row justify-content-center estudia-licenciatura align-items-center">
+            <div class="col-md-6">
+                <div class="contenido text-center text-light">
+                    <h2>¿Quiere ser Chef?</h2>
+                    <p class="display-4">
+                        Estudia la licenciatura para convertirte en Chef con nosotros
+                    </p>
+                    <a href="#" class="btn btn-primary text-uppercase">Mas informacion</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--FOOTER-->
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="nav flex-column flex-md-row text-center">
+                    <a href="#" class="nav-link">Nosotros</a>
+                    <a href="#" class="nav-link">Clases</a>
+                    <a href="#" class="nav-link">Galeria</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </div> 
+            </div>
+            <!--COPYRIGHT-->
+            <div class="col-md-6">
+                <p class="m-0 copyright text-center text-md-right">
+                    Todos los derechos reservados
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--SCTIPS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+</html>
