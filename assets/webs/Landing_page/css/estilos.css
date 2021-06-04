@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(95, 114, 189,0.8), rgba(155,35,234,0.7)), url("../img/bg.jpg");
+    /*abarca toda la pantalla*/
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.logo {
+    height: 50px;
+    margin-top: 15px;
+}
+
+.text-description {
+    letter-spacing: 2px;
+}
+
+.form-control {
+    /*colocamos el fondo transparente y con el comando !important sobreescribimos la clase de bootstrap*/
+    background: transparent !important;
+}
+
+a .fab {
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+
